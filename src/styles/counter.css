@@ -1,0 +1,59 @@
+.site-header {
+	padding: 24px 40px;
+	background: #172033;
+	color: white;
+	text-align: center;
+  }
+
+  .site-header h1 {
+	margin: 0 0 6px;
+	font-size: 1.8rem;
+  }
+
+  .site-header p {
+	margin: 0;
+	color: #b8c1d1;
+  }
+
+  .counter {
+	width: min(90%, 520px);
+	margin: 80px auto;
+	padding: 48px;
+	background: white;
+	border-radius: 24px;
+	text-align: center;
+	box-shadow: 0 20px 50px rgba(23, 32, 51, 0.1);
+  }
+
+  .counter h2 {
+	margin-top: 0;
+	font-size: 1.7rem;
+  }
+
+  .info {
+	margin: 24px 0;
+	font-size: 1.2rem;
+	color: #596579;
+  }
+
+  .counter-button {
+	border: none;
+	padding: 14px 28px;
+	border-radius: 12px;
+	background: #4f46e5;
+	color: white;
+	font-weight: 600;
+	cursor: pointer;
+	transition:
+	  transform 0.2s ease,
+	  box-shadow 0.2s ease;
+  }
+
+  .counter-button:hover {
+	transform: translateY(-2px);
+	box-shadow: 0 8px 20px rgba(79, 70, 229, 0.3);
+  }
+
+  .counter-button:active {
+	transform: translateY(0);
+  }
